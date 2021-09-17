@@ -16,4 +16,4 @@ require (
 	gopkg.in/square/go-jose.v2 v2.6.0
 )
 
-replace github.com/sandertv/go-raknet => github.com/vanlueckn/go-raknet v1.10.0
+replace github.com/sandertv/go-raknet => github.com/vanlueckn/go-raknet v0.0.0-20210917220728-d45bb3148e80
