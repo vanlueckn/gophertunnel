@@ -121,12 +121,14 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4/go.mod h1:xMI15A0UPsDsEKsMN9yxemIoYk6Tm2C1GtYGdfGttqA=
 github.com/rogpeppe/go-internal v1.3.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFRclV5y23lUDJ4=
+github.com/sethvargo/go-limiter v0.7.1 h1:wWNhTj0pxjyJ7wuJHpRJpYwJn+bUnjYfw2a85eu5w9U=
+github.com/sethvargo/go-limiter v0.7.1/go.mod h1:C0kbSFbiriE5k2FFOe18M1YZbAR2Fiwf72uGu0CXCcU=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/stretchr/testify v1.4.0 h1:2E4SXV/wtOkTonXsotYi4li6zVWxYlZuYNCXe9XRJyk=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
-github.com/vanlueckn/go-raknet v0.0.0-20210917220728-d45bb3148e80 h1:Z4lkXDKbqE2P/d4e3DVKkHuVMydZRdxiRYRKL+V3xVk=
-github.com/vanlueckn/go-raknet v0.0.0-20210917220728-d45bb3148e80/go.mod h1:s1lD7LTts74R9csTeI4WlGcp6PmXAGX+DeJlQF3KMlg=
+github.com/vanlueckn/go-raknet v0.0.0-20210917224040-241ddf99c759 h1:MDooR2o+pERxTYkSVKMCuNRX6wleID+sPHHr5oClR64=
+github.com/vanlueckn/go-raknet v0.0.0-20210917224040-241ddf99c759/go.mod h1:0lWkn1pKEQyYwvhBKyPMgEjCNxIE1HMAsKCRlr3kis8=
 github.com/yuin/goldmark v1.1.25/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.32/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
