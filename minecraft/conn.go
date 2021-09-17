@@ -8,6 +8,13 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 	"fmt"
+	"io"
+	"log"
+	"net"
+	"strings"
+	"sync"
+	"time"
+
 	"github.com/google/uuid"
 	"github.com/sandertv/go-raknet"
 	"github.com/sandertv/gophertunnel/internal"
@@ -19,12 +26,6 @@ import (
 	"go.uber.org/atomic"
 	"gopkg.in/square/go-jose.v2"
 	"gopkg.in/square/go-jose.v2/jwt"
-	"io"
-	"log"
-	"net"
-	"strings"
-	"sync"
-	"time"
 )
 
 // exemptedResourcePack is a resource pack that is exempted from being downloaded. These packs may be directly

@@ -5,16 +5,17 @@ import (
 	"crypto/elliptic"
 	"crypto/rand"
 	"fmt"
-	"github.com/sandertv/go-raknet"
-	"github.com/sandertv/gophertunnel/minecraft/protocol"
-	"github.com/sandertv/gophertunnel/minecraft/protocol/packet"
-	"github.com/sandertv/gophertunnel/minecraft/resource"
-	"go.uber.org/atomic"
 	"io/ioutil"
 	"log"
 	"net"
 	"os"
 	"time"
+
+	"github.com/sandertv/go-raknet"
+	"github.com/sandertv/gophertunnel/minecraft/protocol"
+	"github.com/sandertv/gophertunnel/minecraft/protocol/packet"
+	"github.com/sandertv/gophertunnel/minecraft/resource"
+	"go.uber.org/atomic"
 )
 
 // ListenConfig holds settings that may be edited to change behaviour of a Listener.
